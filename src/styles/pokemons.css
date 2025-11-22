@@ -1,0 +1,54 @@
+.pokemons-container {
+  background: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  background: #000;
+  border-radius: 12px;
+  padding: 12px 24px;
+}
+
+.header img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+.header p {
+  color: orange;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.search-input {
+  margin-bottom: 16px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.type-buttons {
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  border-radius: 70px;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
